@@ -20,7 +20,7 @@
 <!-- STEP 2: Open the file 'global-nav.php' inside the new folder called 'includes' and look for STEP 3 -->
 <!-- STEP 6: Add some PHP delimiters so that we can do some programming that will run on the server just below this comment -->
 		<?php
-				require $_SERVER['DOCUMENT_ROOT'].'\week-7\includes\global-nav.php';
+				require $_SERVER['DOCUMENT_ROOT'].'\includes\global-nav.php';
 		 ?>
 <!-- STEP 7: Inside the above PHP code delimiters, add the include or require statement, followed by the server path to nav.php - we need the $_SERVER['DOCUMENT_ROOT'] as well as the directory path to the file, which is '\includes\global-nav.php' - upload index.php to the server and test it in the browser -->
 <!-- STEP 8: Remove EVERY instance of the NAV element inside the HEADER in every page on the site and replace it with the above PHP - upload all the updated files and test them in your browser -->
@@ -77,7 +77,7 @@
 		<footer>
 			<!-- Fine print navigation -->
 			<?php
-					require $_SERVER['DOCUMENT_ROOT'].'\week-7\includes\footer-nav.php';
+					require $_SERVER['DOCUMENT_ROOT'].'\includes\footer-nav.php';
 			 ?>
 			<p><small>© HTML, CSS, and JS Blocks Inc.</small></p>
 		</footer>
