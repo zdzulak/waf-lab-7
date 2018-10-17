@@ -17,7 +17,7 @@
 			<h2>Building Blocks for Web Developers</h2>
 			<!-- Global site navigation -->
 			<?php
-					require $_SERVER['DOCUMENT_ROOT'].'\week-7\includes\global-nav.php';
+					require $_SERVER['DOCUMENT_ROOT'].'\includes\global-nav.php';
 			 ?>
 		</header>
 		<!-- Page-level main content -->
@@ -38,7 +38,7 @@
 		<footer>
 			<!-- Fine print navigation -->
 			<?php
-					require $_SERVER['DOCUMENT_ROOT'].'\week-7\includes\footer-nav.php';
+					require $_SERVER['DOCUMENT_ROOT'].'\includes\footer-nav.php';
 			 ?>
 			<p><small>© HTML, CSS, and JS Blocks Inc.</small></p>
 		</footer>
